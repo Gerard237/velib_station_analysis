@@ -1,0 +1,6 @@
+{"timestamp":"2025-08-31T16:53:56.671587","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-31T16:53:56.673105","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_station_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-31T16:53:58.091716Z","level":"info","event":"=========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T16:53:58.092036Z","level":"info","event":"Connection Done <connection object at 0x7fbd2c697b00; dsn: 'user=airflow password=xxx dbname=airflow host=postgres port=5432', closed: 0>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T16:53:58.092241Z","level":"info","event":"===========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T16:53:58.092630","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

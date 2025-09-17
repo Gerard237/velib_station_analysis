@@ -1,0 +1,10 @@
+{"timestamp":"2025-08-31T17:12:42.566720","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-31T17:12:42.567297","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_station_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-31T17:12:42.751982Z","level":"info","event":"=========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752204Z","level":"info","event":"column \"station_id\" is of type bigint but expression is of type record","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752340Z","level":"info","event":"LINE 3:                 VALUES ((213688169, 'Benjamin Godard - Victo...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752500Z","level":"info","event":"                                ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752632Z","level":"info","event":"HINT:  You will need to rewrite or cast the expression.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752806Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.752916Z","level":"info","event":"===========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:12:42.751490","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
