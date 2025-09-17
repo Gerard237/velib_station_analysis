@@ -1,0 +1,6 @@
+{"timestamp":"2025-08-31T17:25:11.971819","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-31T17:25:11.972590","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_station_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-31T17:25:12.551510Z","level":"info","event":"=========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:25:12.551818Z","level":"info","event":"list indices must be integers or slices, not str","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:25:12.552022Z","level":"info","event":"===========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:25:12.555282","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

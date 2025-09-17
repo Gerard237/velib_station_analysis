@@ -1,0 +1,5 @@
+{"timestamp":"2025-09-03T13:52:17.393846","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-03T13:52:17.394319","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_station_bicycle_info_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-03T13:52:17.830893Z","level":"info","event":"1756905662","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-03T13:52:17.831346Z","level":"info","event":"{'is_renting': 1, 'station_id': 213688169, 'stationCode': '16107', 'is_installed': 1, 'is_returning': 1, 'last_reported': datetime.datetime(2025, 9, 3, 13, 21, 2), 'numBikesAvailable': 5, 'numDocksAvailable': 30, 'num_bikes_available': 5, 'num_docks_available': 30, 'station_opening_hours': None, 'num_bikes_available_types': [{'mechanical': 2}, {'ebike': 3}]}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-03T13:52:17.935350","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

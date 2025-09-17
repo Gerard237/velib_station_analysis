@@ -1,0 +1,9 @@
+{"timestamp":"2025-08-31T17:11:11.483415","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-08-31T17:11:11.488904","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/get_station_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-31T17:11:11.762569Z","level":"info","event":"=========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.762760Z","level":"info","event":"relation \"velib_stations\" does not exist","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.762869Z","level":"info","event":"LINE 2:                 INSERT INTO velib_stations (station_id, name...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.762965Z","level":"info","event":"                                    ^","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.763065Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.763156Z","level":"info","event":"===========================","chan":"stdout","logger":"task"}
+{"timestamp":"2025-08-31T17:11:11.762947","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
